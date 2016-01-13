@@ -27,8 +27,6 @@ source /export/data/bessie1/fengm/init_bessie.sh
 
 The configuration file can be found at`conf/vct.conf`.
 
-Below are the settings
-
 ```ini
 [conf]
 
