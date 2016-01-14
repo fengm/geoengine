@@ -1,5 +1,7 @@
 
-The code prepares input data and runs VCT to detect forest cover change. The code has been deployed on:
+The code prepares input data and runs VCT to detect forest cover change. 
+
+It has been deployed on:
 
 `vct02.umd.edu` at `/export/data/vct02a/fengm/prog/vct`
 
