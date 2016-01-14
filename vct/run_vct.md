@@ -60,20 +60,16 @@ bin=%(root)s/bin
 
 The code only accepts Landsat SR produced by LEDAPS. It searches and processes all the LEDAPS processed Landsat SR (*.hdf) in a folder, and output the results to a specified output folder. Usage of the command is:
 
-```bash
-
+```csh
 usage: vct.py -i INPUT -o OUTPUT
               [--tile TILE]
               [--udist 1/0]
               [--udistComposite 1/0]
               [--changeAnalysis 1/0]
-              
-python vct.py -i <folder of Landsat SR or list of Landsat SR files> -o <output folder> 
 ```
-
 - `-h`, print out the usage.
-- `INPUT`, folder of Landsat SR or list of Landsat SR files.
-- `OUTPUT`, path of the output folder.
+- `-i INPUT`, folder of Landsat SR or list of Landsat SR files.
+- `-o OUTPUT`, path of the output folder.
 - `--tile`, the WRS2 tile for processing. The code uses the tile of the first SR input file by default.
 - `--udist`, enable/disable the udist module (default: 1).
 - `--udistComposite`, enable/disable the udistComposite module (default: 1).
