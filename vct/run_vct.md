@@ -60,7 +60,7 @@ bin=%(root)s/bin
 
 The code only accepts Landsat SR produced by LEDAPS. It searches and processes all the LEDAPS processed Landsat SR (*.hdf) in a folder, and output the results to a specified output folder. Usage of the command is:
 
-```csh
+```bash
 
 usage: vct.py -i INPUT -o OUTPUT
               [--tile TILE]
