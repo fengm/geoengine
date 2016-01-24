@@ -93,8 +93,8 @@ vct.py -i /export/data/bessie2/zhao26/feng_out/sr_to_cheng_11242015/p048r022 -o 
 # Update
 
 ## 01/24/2016
-* record corrdinates of the corners of the orignal Landsat SR image in <scene_id>_ext.txt (include scene ID and UTM zone no.)
-* reformated files name to include sensor type and mission number
+* record coordinates of the corners of the original Landsat SR image in <scene_id>_ext.txt (include scene ID and UTM zone no.)
+* reformatted files name to include sensor type and mission number
 * assign -10000 to SLC-off gap pixels
 * support Landsat 8 OLC data
 * performance improved on common area searching
