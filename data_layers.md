@@ -3,39 +3,45 @@ ___Min Feng, 02/16/2016___
 
 ## 30 m resolution classification maps
 
-  Image Size: 44503 x 36528
-
-* __zambia_reg_sin_30m.zip__: 30m resolution map for Zambia.
-
-  Values in the layer:
-
-  Value | Description
-  ---: | :---
-  0 | nodata
-  1 |  maize
-  2 | other crops
-  10 | non crop
-
-* __zambia_reg_sin_30m_err.zip__: 30 m resolution probability map for Zambia.
-
-  __Value range__:  0.0 ~ 1.0
+  __Image size__: 44503 x 36528
   
-  __Nodata__: -9999
-  
-  __Value type__: Float
-  
+  __Layers__:
 
+  * __zambia_reg_sin_30m.zip__: 30m resolution map for Zambia.
+
+    __Value type__: BYTE
+    __Values in the layer__:
+    
+    Value | Description
+    ---: | :---
+    0 | nodata
+    1 |  maize
+    2 | other crops
+    10 | non crop
+
+  * __zambia_reg_sin_30m_err.zip__: 30 m resolution probability map for Zambia.
+
+    __Value range__:  0.0 ~ 1.0
+    
+    __Nodata__: -9999
+    
+    __Value type__: float32
+  
 ## 500 m resolution aggregated percentage maps
 
-  Value range of the layers are between 0 to 100, representing 0% to 100%.
+  __Value range__: between 0 to 100, representing 0% to 100%.
   
-  __Image Size__: 2670 x 2191
+  __Value type__: BYTE
+  
+  __Image size__: 2670 x 2191
+  
+  __Layers__:
 
-  * __zambia_reg_sin_500m_maize.zip__: aggregated percent of maize at 500m resolution for Zambia
-  
-  * __zambia_reg_sin_500m_other_crops.zip__: aggregated percent of other crops at 500m resolution for Zambia
-  
-  * __zambia_reg_sin_500m_non_crop.zip__: aggregated percent of non-crop at 500m resolution for Zambia
+    * __zambia_reg_sin_500m_maize.zip__: aggregated percent of maize at 500m resolution for Zambia
+    
+    * __zambia_reg_sin_500m_other_crops.zip__: aggregated percent of other crops at 500m resolution for Zambia
+    
+    * __zambia_reg_sin_500m_non_crop.zip__: aggregated percent of non-crop at 500m resolution for Zambia
 
 ## File Format
 
