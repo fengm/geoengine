@@ -10,6 +10,7 @@ ___Min Feng, 02/16/2016___
   * __zambia_reg_sin_30m.zip__: 30m resolution map for Zambia.
 
     __Value type__: BYTE
+    
     __Values in the layer__:
     
     Value | Description
@@ -37,11 +38,11 @@ ___Min Feng, 02/16/2016___
   
   __Layers__:
 
-    * __zambia_reg_sin_500m_maize.zip__: aggregated percent of maize at 500m resolution for Zambia
+  * __zambia_reg_sin_500m_maize.zip__: aggregated percent of maize at 500m resolution for Zambia
     
-    * __zambia_reg_sin_500m_other_crops.zip__: aggregated percent of other crops at 500m resolution for Zambia
+  * __zambia_reg_sin_500m_other_crops.zip__: aggregated percent of other crops at 500m resolution for Zambia
     
-    * __zambia_reg_sin_500m_non_crop.zip__: aggregated percent of non-crop at 500m resolution for Zambia
+  * __zambia_reg_sin_500m_non_crop.zip__: aggregated percent of non-crop at 500m resolution for Zambia
 
 ## File Format
 
