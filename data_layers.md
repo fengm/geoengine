@@ -14,7 +14,7 @@ Value | Description
 2 | other crops
 10 | non crop
 
-* __zambia_reg_sin_30m_err.zip__: 30m resolution probility map for Zambia.
+* __zambia_reg_sin_30m_err.zip__: 30 m resolution probability map for Zambia.
 
 ## 500 m resolution aggregated percentage maps
 
