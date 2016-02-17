@@ -5,7 +5,7 @@ ___Min Feng, 02/16/2016___
 
 * __zambia_reg_sin_30m.zip__: 30m resolution map for Zambia.
 
-### Values in the layer:
+Values in the layer:
 
 Value | Description
 ---: | :---
@@ -15,6 +15,14 @@ Value | Description
 10 | non crop
 
 * __zambia_reg_sin_30m_err.zip__: 30 m resolution probability map for Zambia.
+
+Item | Parameter
+---: | :---
+Value range | 0.0 ~ 1.0
+Nodata | -9999
+Value type | Float
+Height | 36528
+Width | 44503
 
 ## 500 m resolution aggregated percentage maps
 
@@ -28,12 +36,12 @@ Value range of the layers are between 0 to 100, representing 0% to 100%.
 
 ## File Format
 
-GeoTIFF format with BYTE value type.
+GeoTIFF format
 
 ## Coordinate Reference System
 
 Item | Parameter
----:|---
+---:| :---
 Projection        | Sinusoidal Equal Area Projection
 Earth radius      | 6371007.181000 meters
 Projection origin | 0° latitude, 0° longitude
