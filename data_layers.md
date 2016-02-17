@@ -1,7 +1,7 @@
 # Data Layers for Zambia
 ___Min Feng, 02/16/2016___
 
-## 30 m resolution maps
+## 30 m resolution classification maps
 
 * __zambia_reg_sin_30m.zip__: 30m resolution map for Zambia.
 
@@ -16,7 +16,7 @@ Values in the layer:
 
 * __zambia_reg_sin_30m_err.zip__: 30m resolution probility map for Zambia.
 
-## 500m resolution aggregated percentage maps
+## 500 m resolution aggregated percentage maps
 
 Value range of the layers are between 0 to 100, representing 0% to 100%.
 
