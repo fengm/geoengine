@@ -18,15 +18,18 @@ ___Min Feng, 02/16/2016___
 
 * __zambia_reg_sin_30m_err.zip__: 30 m resolution probability map for Zambia.
 
-  Item | Parameter
-  ---: | :---
-  Value range | 0.0 ~ 1.0
-  Nodata | -9999
-  Value type | Float
+  __Value range__:  0.0 ~ 1.0
+  
+  __Nodata__: -9999
+  
+  __Value type__: Float
+  
 
 ## 500 m resolution aggregated percentage maps
 
   Value range of the layers are between 0 to 100, representing 0% to 100%.
+  
+  __Image Size__: 2670 x 2191
 
   * __zambia_reg_sin_500m_maize.zip__: aggregated percent of maize at 500m resolution for Zambia
   
