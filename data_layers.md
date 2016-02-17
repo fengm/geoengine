@@ -7,12 +7,12 @@ ___Min Feng, 02/16/2016___
 
 ### Values in the layer:
 
-```
-0: nodata
-1: maize
-2: other crops
-10: non crop
-```
+Value | Description
+---: | :---
+0 | nodata
+1 |  maize
+2 | other crops
+10 | non crop
 
 * __zambia_reg_sin_30m_err.zip__: 30m resolution probility map for Zambia.
 
@@ -32,8 +32,9 @@ GeoTIFF format with BYTE value type.
 
 ## Coordinate Reference System
 
+Item | Parameter
+---:|---
 Projection        | Sinusoidal Equal Area Projection
----|---
 Earth radius      | 6371007.181000 meters
 Projection origin | 0° latitude, 0° longitude
 Orientation       | 0° longitude, oriented vertically at top
