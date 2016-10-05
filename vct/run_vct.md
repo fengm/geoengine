@@ -110,3 +110,10 @@ vct.py -i /export/data/bessie2/zhao26/feng_out/sr_to_cheng_11242015/p048r022 -o 
 * allow enable/disable udist, udistComposite, changeAnalysis modules
 * minor bugs fixed
 
+## 10/01/2016
+
+- Estimate the center point of each Landsat pathrow by calculating the median X and Y of center points of all the input Landsat scenes; Landsat images with >15km shitting from the center point are considered with problematic scene extents, and excluded from the input SR image list;
+- Identify Landsat images with invalid QA or acquired in leaf off season, exclude them from the beginning of the processing.
+- Delete previous result folder if it exits, to avoid overlapping results from multiple runs.
+- Image selection was modified to use two searching periods: A narrower leaf-on season searching period (06/15 - 09/15 for US, 07/01 - 09/15 for Canada) is applied as the first stage. The second searching with the estimated leaf-on season period is only applied if >10% gaps were left from the first stage searching. Note, for practice reason, any WRS-2 tiles with row number <= 25 is applied the 07/01 - 09/15 searching period, otherwise the 06/15 - 09/15 period. An logical function was applied to estimate the weight for the second stage searching.
+
